@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girish Cold Drinks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f4f4f4, #e9ecef);
+            color: #333;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 20px auto;
+            max-width: 90%;
+            border-radius: 15px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .about {
+            background-color: #28a745;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 90%;
+            border-radius: 15px;
+            animation: slideIn 2s ease-in-out;
+        }
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .products {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 300px;
+            padding: 20px;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        .product h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .product p {
+            margin-bottom: 15px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .product .price {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .product button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #0056b3;
+        }
+        .maps {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .maps a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .maps a:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background: linear-gradient(to right, #6c757d, #5a6268);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            animation: slideUp 2s ease-in-out;
+        }
+        .footer h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Girish Cold Drink</h1>
+    </div>
+    <div class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Girish Cold Drinks, located in the heart of Ahmedabad, Gujarat. We have been serving refreshing cold drinks and beverages since 1990. Our mission is to provide high-quality, hygienic, and delicious drinks to our customers. Visit us at Ground Floor-1, near Girish Cold Drinks, Mithakhali, Navrangpura, Ahmedabad, Gujarat 380006.</p>
+    </div>
+    <div class="products">
+        <div class="product">
+            <h3>Fresh Orange Juice</h3>
+            <p>A refreshing blend of fresh oranges, perfect for a hot day.</p>
+            <img src="https://ibb.co/NgjKJtpH" alt="Fresh Orange Juice">
+            <div class="price">Price: ₹50</div>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <h3>Mango Lassi</h3>
+            <p>Creamy and sweet mango lassi made with ripe mangoes and yogurt.</p>
+            <img src="paste link here" alt="Mango Lassi">
+            <div class="price">Price: ₹60</div>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <h3>Cold Coffee</h3>
+            <p>Chilled coffee with a hint of vanilla, ideal for coffee lovers.</p>
+            <img src="paste link here" alt="Cold Coffee">
+            <div class="price">Price: ₹70</div>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <h3>Lemon Soda</h3>
+            <p>Tangy lemon soda with a fizzy twist, refreshing and light.</p>
+            <img src="paste link here" alt="Lemon Soda">
+            <div class="price">Price: ₹40</div>
+            <button>Order Now</button>
+        </div>
+    </div>
+    <div class="maps">
+        <a href="https://www.google.com/maps/place/Ground+Floor-1,+Girish+Cold+Drinks,+Chimanlal+Girdharlal+Rd,+near+Girish+cold+drinks,+Mithakhali,+Navrangpura,+Ahmedabad,+Gujarat+380006/@23.0324986,72.5602622,17z/data=!4m9!1m2!2m1!1sGirish+cold+drink!3m5!1s0x395e84f3df98f215:0x7683db782ebbd391!8m2!3d23.0324986!4d72.5602622!16s%2Fg%2F1tf6q5jf?utm_campaign=as-npt&g_ep=Eg1tbF8yMDI2MDEyOF8xIOC7DCoASAJQAg%3D%3D">Get Directions via Google Maps</a>
+        <a href="maps://?q=Ground+Floor-1,+Girish+Cold+Drinks,+Chimanlal+Girdharlal+Rd,+near+Girish+cold+drinks,+Mithakhali,+Navrangpura,+Ahmedabad,+Gujarat+380006">Get Directions via Apple Maps (iOS)</a>
+    </div>
+    <div class="footer">
+        <h2>Thanks for Visit</h2>
+    </div>
+</body>
+</html>
